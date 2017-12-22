@@ -14,7 +14,7 @@ public class MainActivity extends AppCompatActivity {
         ImageView imageView = findViewById(R.id.imageView);
 
         CustomPicasso.with(this)
-                .load("https://www.multiestetica.com/img/img_et/avatar/i-avatar-15.jpg")
+                .load("http://www.multiestetica.com/img/img_et/avatar/i-avatar-15.jpg")
                 .placeholder(R.drawable.loading_placeholder)
                 .error(R.drawable.error_placeholder)
                 .into(imageView);
